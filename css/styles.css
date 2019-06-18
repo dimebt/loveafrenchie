@@ -82,11 +82,11 @@ nav a:focus {
 }
 
 .privacyheader a {
-  color: #333333;
+  color: #1f1f1f;
 }
 
 .privacyheader li {
-  text-shadow: 0.14em 0.14em 0.14em #f4f4f4;
+  text-shadow: 0.04em 0.04em 0.04em #f4f4f463;
 }
 
 .home {
@@ -174,7 +174,7 @@ nav a:focus {
 .our-app h1 {
   font-weight: 300;
   padding: 1em;
-  text-shadow: 0.14em 0.14em 0.14em #e0e0e0;
+  text-shadow: 0.04em 0.04em 0.04em #e0e0e0;
 }
 
 .our-app-caption h1 {
@@ -193,7 +193,7 @@ nav a:focus {
 .our-app-privacy h1 {
   font-weight: 300;
   padding: 1em;
-  text-shadow: 0.14em 0.14em 0.14em #e0e0e0;
+  text-shadow: 0.04em 0.04em 0.04em #e0e0e0;
 }
 
 .our-app-caption-privacy h1 {
@@ -227,7 +227,7 @@ nav a:focus {
 
 .features h1 {
   padding: 1em;
-  text-shadow: 0.14em 0.14em 0.14em #e0e0e0;
+  text-shadow: 0.04em 0.04em 0.04em #e0e0e0;
   color: #333333;
   background-color: rgba(255, 255, 255, 0.3);
 }
@@ -258,7 +258,7 @@ ul {
   color: #333333;
   font-weight: 300;
   padding: 0.5em;
-  text-shadow: 0.14em 0.14em 0.14em #e0e0e0;
+  text-shadow: 0.04em 0.04em 0.04em #e0e0e0;
 }
 
 .screen {
@@ -311,6 +311,13 @@ ul {
     padding-right: 2em;
     padding-left: 2em;
   }
+
+  .privacytext {
+    padding: 1em 7em;
+  }
+  .privacycontainer {
+    padding: 1em 8em;
+  }
 }
 
 .footer ul {
@@ -353,8 +360,12 @@ ul {
   text-align: left;
 }
 
-.privacytext {
-  padding-bottom: 1em;
+.privacytext h2 {
+  padding: 0 2em;
+  font-size: 0.8em;
+  color: #333333;
+  text-shadow: none;
+  text-align: left;
 }
 
 .privacycontainer h2 {
@@ -364,7 +375,7 @@ ul {
   text-shadow: none;
   text-align: justify;
   line-height: 1.5em;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 .privacycontainer p {
   padding: 0.3em 0;
@@ -375,7 +386,7 @@ ul {
   font-size: 1em;
   color: #000000;
   text-align: left;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 @media (min-width: 30rem) {
